@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  align-items: center;
+  border: 3px red;
+}
