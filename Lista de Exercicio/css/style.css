@@ -1,14 +1,54 @@
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: brown;
-  align-items: center;
-}
-
 main {
   display: flex;
-  flex-direction: row;
-  background-color: aqua;
+  justify-content: center;
   align-items: center;
-  border: 3px red;
+  background-color: brown;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.containerEscolhas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: darkseagreen;
+  width: 15vw;
+  height: 50vh;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: cadetblue;
+  border-radius: 7px 7px 7px 7px;
+  width: 60%;
+  height: 50%;
+  overflow: hidden;
+  font-size-adjust: none;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: darkslateblue;
+  height: 50vh;
+}
+.notas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(197, 141, 30);
+}
+.botao {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+botaoReset {
+  width: ;
+  height: ;
+  background-color: aqua;
 }
